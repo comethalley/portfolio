@@ -345,6 +345,67 @@ h2 {
   opacity: 0.8;
   transform: scale(0.9);
 }
+
+.custom-card {
+  margin-bottom: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  height: 500px;
+}
+
+.custom-card img {
+  max-width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #d43f52;
+}
+
+.custom-card-text {
+  margin-bottom: 12px;
+  text-align: left;
+}
+.custom-card-tech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 8px;
+}
+
+.custom-card-tech span {
+  background-color: #d43f52;
+  color: #ffffff;
+  padding: 8px 14px;
+  font-size: 12px;
+  border-radius: 40px;
+}
+
+.portfolio-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-overlay .btn {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 32px;
+  margin-top: 40px;
+  transition: all 0.4s ease-in-out;
+}
+.portfolio-overlay .btn:hover {
+  opacity: 0.8;
+}
 /* end portfolio */
 
 /* start contact */
