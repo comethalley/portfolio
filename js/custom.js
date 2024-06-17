@@ -118,7 +118,7 @@ particlesJS('particles-js', {
 $('#resume').click(function(e) {
     e.preventDefault();  
    
-   const fileUrl = '../resume/Bonita-Kenneth-Resume.pdf';
+   const fileUrl = 'https://comethalley.github.io/portfolio/resume/Bonita-Kenneth-Resume.pdf';
 
    
    const a = document.createElement('a');
