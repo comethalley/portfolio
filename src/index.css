@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #faf8f5;
+  --color-linen: #f4efe8;
+  --color-rose-light: #f3e4e1;
+  --color-rose-mid: #d5b5ae;
+  --color-rose-dark: #8d6360;
+  --color-rose-hover: #7b5552;
+  --color-sage-light: #e6ede6;
+  --color-sage-mid: #7f9584;
+  --color-text-base: #2e2522;
+  --color-text-muted: #6f625c;
+  --color-text-light: #9c8f88;
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", "Segoe UI", sans-serif;
+
+  --animate-fade-up-1: fade-up 0.7s ease-out 0.08s forwards;
+  --animate-fade-up-2: fade-up 0.7s ease-out 0.18s forwards;
+  --animate-fade-up-3: fade-up 0.7s ease-out 0.28s forwards;
+  --animate-fade-up-4: fade-up 0.7s ease-out 0.38s forwards;
+  --animate-fade-up-5: fade-up 0.7s ease-out 0.48s forwards;
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    background: var(--color-cream);
+    color: var(--color-text-base);
+    font-family: var(--font-sans);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
