@@ -2,6 +2,8 @@ import inventoTrackImg from "../assets/images/projects/elanco.png";
 import afpcmosImg from "../assets/images/projects/afplms.png";
 import pspmmsImg from "../assets/images/projects/pspmms.png";
 import pmsImg from "../assets/images/projects/pms.png";
+import lgLopezImg from "../assets/images/projects/lg-lopez.png";
+import atlasImg from "../assets/images/projects/atlas.png";
 import type { Job } from "../types";
 
 export const jobs: Job[] = [
@@ -57,6 +59,38 @@ export const jobs: Job[] = [
         badge: "Confidential",
         title: "Legacy Platform Migration",
         desc: "Modernised a legacy booking and delivery system by re-architecting it with a modern stack, significantly improving maintainability, performance, and UX.",
+        stack: ["Laravel", "Inertia.js", "React"],
+      },
+    ],
+  },
+  {
+    label: "Freelance Full-Stack Developer",
+    tag: "Freelance · 2026 – Present",
+    note: "Selected independent and client-based projects.",
+    dotColor: "bg-blue-500",
+    projects: [
+      {
+        gradient: "from-blue-100 to-blue-200",
+        image: lgLopezImg,
+        badge: "Freelance",
+        title: " Official Website Development for LG Lopez ",
+        desc: "Designed and developed an official website for LG Lopez to showcase services, provide public information, and improve digital presence.",
+        stack: ["Laravel", "Inertia.js", "React"],
+      },
+      {
+        gradient: "from-purple-100 to-purple-200",
+        image: atlasImg,
+        badge: "Freelance",
+        title: "Atlas",
+        desc: "Developed a smart home management platform that allows users to monitor and control electronic devices through a centralized dashboard, featuring real-time device status, and third-party smart device integrations.",
+        stack: ["Laravel", "Inertia.js", "React", "3rd Party APIs"],
+      },
+      {
+        gradient: "from-purple-100 to-purple-200",
+        symbol: "📋",
+        badge: "Freelance · NDA",
+        title: "Survey Application",
+        desc: "Built a survey and reporting platform featuring dynamic forms, response analytics, chart-based insights, PDF report generation, and workflow management for participant evaluation processes.",
         stack: ["Laravel", "Inertia.js", "React"],
       },
     ],
