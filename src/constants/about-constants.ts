@@ -10,6 +10,14 @@ export const experiences: Experience[] = [
     badgeClass: "bg-rose-light text-rose-dark",
   },
   {
+    role: "Freelance Full-Stack Developer",
+    company: "Self-Employed",
+    period: "2026 – Present",
+    type: "Freelance",
+    borderColor: "border-l-blue-500",
+    badgeClass: "bg-blue-100 text-blue-700",
+  },
+  {
     role: "Full-Stack Web Developer",
     company: "NegosyoLabPH Business Development Services",
     period: "September 2023 – July 2024",
